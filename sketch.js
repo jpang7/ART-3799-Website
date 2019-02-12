@@ -1,10 +1,8 @@
-var coords = [40, 40, 80, 60, 100, 100, 60, 120, 50, 150];
-
-setup() {
+function setup() {
     createCanvas(1000, 1000);
     y = random();
 }
-draw() {
+function draw() {
     background(255);
     noFill();
     stroke(0);
